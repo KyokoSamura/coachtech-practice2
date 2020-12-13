@@ -1,0 +1,440 @@
+@charset "utf-8";
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+#card {
+  
+  color: #000;
+  background: #ffffff;
+  position: absolute;
+  top:580px;
+  font-size: 10px;
+  right: 10px;
+  width: 600px;
+  height: 60px;
+}
+
+
+.card-item2 {
+    width: 60px;
+    height: 35px;
+    color: white;
+    background: black;
+    padding-left: 28px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 499px;
+    padding-right: 15px;
+    margin-top: -30px;
+       
+}
+
+
+
+#eyecatch {
+  height: 600px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+}
+
+#eyecatch p {
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+  position: relative;
+}
+
+#about {
+    height: 300px;
+    color: #ffffff;
+    background-color: #000;
+    font-style: italic;
+    margin-top: -20px; 
+}
+
+.section-title {
+    font-size: 1.5rem;
+}
+
+.about-wrap {
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-right img {
+    height: 10%;
+    width: 30%;
+    margin: 000 auto;
+}
+
+.about-left p
+{
+    font-size: 15px;
+    width: auto;
+    height: 0px;
+}
+
+.link {
+  font-size: 14px;
+  color: #000;
+  background-color: #ffffff;
+  text-decoration: none; 
+  cursor: pointer;
+  border: 1px #ffffff;  
+  margin-left: 100px;
+}
+
+#service {
+    height: 1000px;
+    background-color: rgb(218, 216, 216);
+    margin-top: 30px;
+}
+
+.service {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 40%;
+}
+
+
+
+.service-right img {
+    display: block;
+    width: 40%;
+    margin-left: auto;   
+}
+
+#service-card1 {
+    width: 400px;
+    height: 150px;
+    background-color: #ffffff;
+    position: relative;
+    top: -300px;
+    left: 400px;
+    padding: 60px 40px 10px;
+    font-style: 游ゴシック体;
+    font-size: 10px;
+}
+
+.SC1-text,
+.SC1-text2  {
+    margin-top: 10px;
+ }
+
+ .SC1-link1 {
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px black solid;
+    transition: 0.4s ease;
+    position: relative;
+    top: 30px;
+    left: 300px; 
+}
+
+.service-left img {
+    position: relative;
+    top: -100px;
+    width: 40%;
+    margin-right: auto;   
+}
+
+
+#service-card2 {
+    width: 400px;
+    height: 150px;
+    background-color: #ffffff;
+    position: relative;
+    top: -350px;
+    left: 400px;
+    padding: 60px 40px 10px;
+    font-style: 游ゴシック体;
+    font-size: 10px;
+}
+
+.SC2-text,
+.SC2-text2  {
+    margin-top: 10px;
+}
+
+.SC2-link2 {
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px black solid;
+    transition: 0.4s ease;
+    position: relative;
+    top: 30px;
+    left: 300px; 
+}
+
+#business {
+    margin-top: -650px;
+}
+
+.business-wrap {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+}   
+
+
+.business-cat1 {
+    background: url(../img/company.jpeg) no-repeat;
+    width: 600px;
+    height: 300px;
+    margin-right: auto;
+    position: relative;
+}
+
+.business-cat2 {
+    background: url(../img/recruit.jpg) no-repeat;
+    width: 600px;
+    margin-left: auto;
+    position: relative;
+}
+
+.business-cat1 h1,
+.business-cat2 h1 {
+    padding-top: 90px;
+}
+
+.business-cat1 p {
+    padding-top: 10px;
+}
+
+.business-cat2 p {
+    padding-top: 30px;
+}
+
+
+
+.FAQ-wrap {
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 150px;
+    width:80%;
+    height: 130px;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-left: 5%;
+    
+        
+}
+
+.FAQ-wrap h1 {
+    font-size: 40px;
+}
+
+.FAQ-wrap p {
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+#form {
+    margin-top: 150px;
+    background: url(../img/contact-bg.jpg) no-repeat;
+    color: white;
+    text-align: center;
+    height: 700px;
+}
+
+.form h1 {
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.form h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.form h3 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.form p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.form-link {
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px white solid;
+    transition: 0.4s ease;
+    position: relative;
+    top: 30px;
+     
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-top: 1650px;
+    bottom: 0px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.footer-nav ul {
+  display: flex;
+  color: white;
+  padding-left: 550px;
+  
+}
+
+.footer-nav li {
+  padding-left: 80px;
+  font-size: 16px;
+}
+
+.footer-nav a {
+  color: #f2f2f2;
+}
+
