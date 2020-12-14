@@ -140,18 +140,19 @@ input, select {
   right: 10px;
   width: 600px;
   height: 60px;
+  margin-top: 25px;
 }
 
 
 .card-item2 {
-    width: 60px;
+    width: 70px;
     height: 35px;
     color: white;
     background: black;
     padding-left: 28px;
     text-align: center;
     padding-top: 30px;
-    margin-left: 499px;
+    margin-left: 497px;
     padding-right: 15px;
     margin-top: -30px;
        
@@ -199,16 +200,21 @@ input, select {
     height: 10%;
     width: 30%;
     margin: 000 auto;
+    margin-top: -40px;
 }
 
 .about-left p
 {
     font-size: 15px;
-    width: auto;
-    height: 0px;
+    position: relative;
+    width: 1500px;
+    left: 120px;
+    margin-left: -120px;
+    margin-bottom: -70px;
 }
 
 .link {
+  margin-bottom: 50px;
   font-size: 14px;
   color: #000;
   background-color: #ffffff;
@@ -216,19 +222,20 @@ input, select {
   cursor: pointer;
   border: 1px #ffffff;  
   margin-left: 100px;
+  
 }
 
 #service {
     height: 1000px;
     background-color: rgb(218, 216, 216);
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .service {
     font-size: 2rem;
     text-align: center;
     padding-top: 10px;
-    padding-left: 40%;
+    padding-left: 100px;
 }
 
 
